@@ -5,7 +5,6 @@
       <Navbar />
 
       <div class="flex flex-1 mt-14">
-        <!-- Sidebar (Desktop) -->
         <aside
           class="hidden md:flex flex-col justify-between w-64 bg-white border-r shadow-sm p-6 sticky top-14 h-[calc(100vh-3.5rem)]"
         >
@@ -38,7 +37,6 @@
           </button>
         </aside>
 
-        <!-- Sidebar (Mobile) -->
         <div v-if="isSidebarOpen" class="fixed inset-0 z-50 flex md:hidden">
           <div class="fixed inset-0 bg-black/40" @click="isSidebarOpen = false" />
           <aside
@@ -114,7 +112,7 @@
             <RouterLink
               to="/tickets"
               class="bg-[#E040FB] text-white px-8 py-3 rounded-full font-semibold shadow-md hover:bg-pink-500 transition"
-            >
+            > 
               Manage Tickets
             </RouterLink>
           </section>

@@ -1,9 +1,7 @@
 <template>
   <div class="max-w-[1440px] mx-auto font-inter text-gray-900 overflow-hidden">
-    <!-- Navbar -->
     <Navbar />
 
-    <!-- Hero Section -->
     <section
       class="relative bg-linear-to-r from-[#E040FB] to-[#FFC2FF] min-h-[90vh] flex flex-col justify-center items-center text-center px-6"
     >
