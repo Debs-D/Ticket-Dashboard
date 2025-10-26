@@ -1,38 +1,60 @@
-# vue-project
+🎟️ Ticket Dashboard — React & Vue Versions
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern, responsive Ticket Management Dashboard built in two frameworks — React and Vue 3.
+This project demonstrates flexibility across frontend technologies while maintaining a consistent design system and feature set.
 
-## Recommended IDE Setup
+🚀 Overview
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Both versions include:
 
-## Recommended Browser Setup
+🎨 Clean and responsive UI (Tailwind CSS)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+🔐 Auth pages (Login, Register, Logout)
 
-## Customize configuration
+🎫 Ticket creation and tracking
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+📊 Dashboard overview for quick stats
 
-## Project Setup
+⚡ Fast builds with Vite
 
-```sh
-yarn
-```
+🧩 Implementations
+Framework	Repository / Folder	Description
+⚛️ React	Ticket-Dashboard (React)
+	Original version built using React + Vite.
+🖖 Vue 3	Ticket-Dashboard (Vue)
+	Rebuilt version using Vue 3 + Vite.
+🧱 Shared Assets
 
-### Compile and Hot-Reload for Development
+Both projects share:
 
-```sh
+A common /assets folder (hero wave, SVGs, shapes)
+
+Unified design structure and color system
+
+Similar folder layout for easy comparison
+
+💡 Purpose
+
+This project was created to:
+
+Practice building scalable UI structures in both React and Vue
+
+Understand framework differences in component architecture and state management
+
+Showcase reusable design principles
+
+🧠 Quick Start
+
+Each folder (react-ticket-dashboard or vue-ticket-dashboard) has its own setup instructions inside its README.md.
+To run any version:
+
+cd react-ticket-dashboard
+# or
+cd vue-ticket-dashboard
+
+yarn install
 yarn dev
-```
 
-### Compile and Minify for Production
+📜 License
 
-```sh
-yarn build
-```
+Open-source under the MIT License.
